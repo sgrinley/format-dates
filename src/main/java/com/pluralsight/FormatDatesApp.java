@@ -40,7 +40,14 @@ public class FormatDatesApp {
         System.out.println("6: " + now.format(f6));
 
 
-//       7th Format: h:mm 'on' dd-MM-yyyy
-//       7th Format: h:mm 'on' dd-MM-yyyy
+//      7th Format: h:mm a 'on' EEEE, MM, dd, yyyy
+        DateTimeFormatter f7 = DateTimeFormatter.ofPattern("h:mm a 'on' EEEE, MM, dd, yyyy ");
+        System.out.println("7: " + now.format(f7));
+
+
+
+
+
+
     }
 }
