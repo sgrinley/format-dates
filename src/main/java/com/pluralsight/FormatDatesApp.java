@@ -35,8 +35,7 @@ public class FormatDatesApp {
         System.out.println("5: " + now.format(f5));
 
 
-
-
-
+//       6th Format: EEEE, MM, dd, yyyy HH:mm:ss
+//       7th Format: h:mm 'on' dd-MM-yyyy
     }
 }
