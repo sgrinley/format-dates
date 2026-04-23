@@ -20,6 +20,9 @@ public class FormatDatesApp {
         System.out.println("2: " + now.format(f2));
 
 
+//      3rd Format: yyyy-MM-dd
+        DateTimeFormatter f3 = DateTimeFormatter.ofPattern("yyyy-MM-dd  ");
+        System.out.println("3: " + now.format(f3));
 
 
 
@@ -30,8 +33,9 @@ public class FormatDatesApp {
 
 
 
-//       3rd Format: yyyy-MM-dd
-//       4th Format: EEEE dd, yyyy
+
+
+
 //       5th Format: EEEE, MM, dd, yyyy HH:mm
 //       6th Format: EEEE, MM, dd, yyyy HH:mm:ss
 //       7th Format: h:mm 'on' dd-MM-yyyy
