@@ -35,7 +35,12 @@ public class FormatDatesApp {
         System.out.println("5: " + now.format(f5));
 
 
-//       6th Format: EEEE, MM, dd, yyyy HH:mm:ss
+//      6th Format: EEEE, MM, dd, yyyy HH:mm:ss a
+        DateTimeFormatter f6 = DateTimeFormatter.ofPattern("EEEE, MM, dd, yyyy HH:mm:ss a  ");
+        System.out.println("6: " + now.format(f6));
+
+
+//       7th Format: h:mm 'on' dd-MM-yyyy
 //       7th Format: h:mm 'on' dd-MM-yyyy
     }
 }
