@@ -45,6 +45,11 @@ public class FormatDatesApp {
         System.out.println("7: " + now.format(f7));
 
 
+//      8th Format: h:mm a 'on' dd-MM-yyyy
+        DateTimeFormatter f8 = DateTimeFormatter.ofPattern("h:mm a 'on' dd-MM-yyyy  ");
+        System.out.println("8: " + now.format(f8));
+
+
 
 
 
