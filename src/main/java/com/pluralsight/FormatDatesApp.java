@@ -25,8 +25,9 @@ public class FormatDatesApp {
         System.out.println("3: " + now.format(f3));
 
 
-
-
+//      4th Format: EEEE dd, yyyy
+        DateTimeFormatter f4 = DateTimeFormatter.ofPattern("EEEE dd, yyyy  ");
+        System.out.println("4: " + now.format(f4));
 
 
 
